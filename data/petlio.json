@@ -1,0 +1,422 @@
+{
+  "site": {
+    "name": "Paw & Co.",
+    "tagline": "Pet Care & Wellness"
+  },
+  "header": {
+    "logo": {
+      "src": "/images/logo-image.png",
+      "alt": "Petmora — Healthy Pets • Happier Lives",
+      "width": 180,
+      "height": 56
+    },
+    "navLinks": [
+      { "label": "Home", "href": "/" },
+      { "label": "About Us", "href": "/about" },
+      { "label": "Services", "href": "/services" },
+      { "label": "Gallery", "href": "/gallery" },
+      { "label": "Blog", "href": "/blog" },
+      { "label": "Contact Us", "href": "/contact" }
+    ],
+    "contact": {
+      "phone": "+1-800-356-8933",
+      "phoneHref": "tel:+18003568933",
+      "subtext": "Speak to Our Pet Care Expert"
+    },
+    "actions": {
+      "favoritesHref": "/favorites",
+      "appointment": {
+        "label": "Book an Appointment",
+        "href": "/book-appointment"
+      }
+    }
+  },
+  "hero": {
+    "badge": "Healthy Pets • Happy Lives",
+    "headline": {
+      "line1": "Your Pet,",
+      "line2": "Our Family"
+    },
+    "tagline": "Dedicated to providing compassionate, comprehensive veterinary and wellness care for your beloved companions.",
+    "image": {
+      "src": "/images/hero-dummy.jpg",
+      "alt": "Golden retriever — placeholder hero photo"
+    },
+    "cta": {
+      "label": "Explore Our Services",
+      "href": "/services"
+    }
+  },
+  "heroFeatures": [
+    {
+      "title": "Trusted Veterinary Care",
+      "description": "Experienced & caring professionals",
+      "icon": "shield"
+    },
+    {
+      "title": "Modern Facilities",
+      "description": "Clean, safe & comfortable",
+      "icon": "heart"
+    },
+    {
+      "title": "Comprehensive Services",
+      "description": "Health, grooming, nutrition & more",
+      "icon": "paw"
+    },
+    {
+      "title": "Happy Pets, Happy Owners",
+      "description": "Our care makes a difference",
+      "icon": "leaf"
+    }
+  ],
+  "stats": [
+    { "value": "12K+", "label": "Happy Pets" },
+    { "value": "850+", "label": "Expert Vets" },
+    { "value": "40+", "label": "City Clinics" },
+    { "value": "4.9", "label": "Average Rating" }
+  ],
+  "services": {
+    "eyebrow": "Services",
+    "title": "What We Offers",
+    "subtitle": "Paw & Co. is renowned for pet care services and lifetime solutions. We love pets and believe pets make us better people.",
+    "listColumns": [
+      ["Grooming", "Day Care", "Veterinary Care"],
+      ["Pet Hotel", "Adoption", "Dog Training"]
+    ],
+    "cta": {
+      "label": "Book a call",
+      "href": "/book-appointment"
+    },
+    "heroImage": {
+      "src": "/images/services-pets.jpg",
+      "alt": "Happy dog and cat family sitting together"
+    }
+  },
+  "about": {
+    "badge": "About Us",
+    "titlePrefix": "Our Mission is",
+    "titleHighlight": "Happier, Healthier Pets",
+    "description": "At Paw & Co., every pet deserves love, care and a healthy life.",
+    "cta": {
+      "label": "Learn More",
+      "href": "/about",
+      "storyHref": "#our-story"
+    },
+    "features": [
+      {
+        "icon": "heart",
+        "title": "Compassionate care",
+        "text": "Every pet is treated like family."
+      },
+      {
+        "icon": "stethoscope",
+        "title": "Expert professionals",
+        "text": "Skilled vets and caring hands."
+      },
+      {
+        "icon": "shield",
+        "title": "Safe & modern",
+        "text": "Comfortable care you can trust."
+      },
+      {
+        "icon": "paw",
+        "title": "Community focused",
+        "text": "Because pets make life better."
+      }
+    ],
+    "mainImage": {
+      "src": "https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?auto=format&fit=crop&w=1400&q=90",
+      "alt": "Veterinarian caring for a dog"
+    },
+    "photoNote": {
+      "lines": ["Healthy Pets", "Happy Lives ♡"]
+    },
+    "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=600&q=85",
+        "alt": "Happy cat"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?auto=format&fit=crop&w=600&q=85",
+        "alt": "Cute rabbit"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?auto=format&fit=crop&w=600&q=85",
+        "alt": "Colorful bird"
+      }
+    ],
+    "stats": [
+      { "value": "5,000+", "label": "Happy pets", "icon": "paw" },
+      { "value": "50+", "label": "Expert staff", "icon": "users" },
+      { "value": "10+", "label": "Years of experience", "icon": "heart" },
+      { "value": "98%", "label": "Satisfaction rate", "icon": "star" }
+    ]
+  },
+  "whyChooseUs": {
+    "eyebrow": "Why Choose Us",
+    "title": "Because Your Pet",
+    "titleHighlight": "Deserves the Best",
+    "description": "More than just a pet care center — we're a family that truly cares about your furry friends.",
+    "heroImage": {
+      "src": "/images/hero-dummy.jpg",
+      "alt": "Happy dog — placeholder photo"
+    },
+    "photoNote": {
+      "text": "Happy Pets, Happy Lives",
+      "accent": "♡"
+    },
+    "cards": [
+      {
+        "title": "Experienced Groomers",
+        "description": "Trained professionals who understand your pet's needs.",
+        "image": "/images/about-main.jpg",
+        "alt": "Pet care placeholder",
+        "icon": "paw",
+        "tone": "sage"
+      },
+      {
+        "title": "Clean & Hygienic Spaces",
+        "description": "Well-maintained, pet-safe grooming environment.",
+        "image": "/images/home-banner.jpg",
+        "alt": "Clean pet space placeholder",
+        "icon": "sparkles",
+        "tone": "cream"
+      },
+      {
+        "title": "Personalized Care",
+        "description": "Grooming tailored to your pet's breed, coat and comfort.",
+        "image": "/images/about-cat.jpg",
+        "alt": "Cat care placeholder",
+        "icon": "heart",
+        "tone": "blue"
+      },
+      {
+        "title": "Hassle-Free Experience",
+        "description": "A calm, caring and stress-free visit for both you and your pet.",
+        "image": "/images/hero-dummy.jpg",
+        "alt": "Happy dog placeholder",
+        "icon": "star",
+        "tone": "peach"
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Testimonials",
+    "title": "Pet Lover Reviews",
+    "items": [
+      {
+        "quote": "Wanted to drop a tine to say how totally amazing your service are. Everything works just fine without extra configurations. Thanks a lot and keep on loving your job.",
+        "name": "James John",
+        "petLabel": "GERMAN PUG",
+        "rating": 5,
+        "personImage": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=400&h=400&q=80",
+        "petImage": "/images/hero-dummy.jpg"
+      },
+      {
+        "quote": "Wanted to drop a tine to say how totally amazing your service are. Everything works just fine without extra configurations. Thanks a lot and keep on loving your job.",
+        "name": "Maria Jeferson",
+        "petLabel": "PERSIAN CAT",
+        "rating": 5,
+        "personImage": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&h=400&q=80",
+        "petImage": "/images/about-cat.jpg"
+      },
+      {
+        "quote": "Clear communication, fair prices, and vets who listen. We won't take Buddy anywhere else for checkups or emergencies.",
+        "name": "Emily Rodriguez",
+        "petLabel": "GOLDEN RETRIEVER",
+        "rating": 5,
+        "personImage": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=400&h=400&q=80",
+        "petImage": "/images/about-main.jpg"
+      },
+      {
+        "quote": "Boarding was stress-free for us and for Coco. Daily updates and photos made our trip worry-free. Highly recommend Paw & Co.",
+        "name": "Sarah Mitchell",
+        "petLabel": "LABRADOR",
+        "rating": 5,
+        "personImage": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&h=400&q=80",
+        "petImage": "/images/home-banner.jpg"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to give your pet the best care?",
+    "subtitle": "Book a visit today or call our experts — we're here for every wag and purr.",
+    "primary": {
+      "label": "Book an Appointment",
+      "href": "/book-appointment"
+    },
+    "secondary": {
+      "label": "Contact Us",
+      "href": "/contact"
+    }
+  },
+  "footer": {
+    "brandLine": "PAW & CO.",
+    "description": "Discover premium pet care, products and accessories at Paw & Co. Your one-stop destination for all your furry friends needs!",
+    "hours": {
+      "daysLabel": "Mon To Sun :",
+      "time": "10:00 AM To 6:00 PM"
+    },
+    "categories": {
+      "title": "Categories",
+      "links": [
+        { "label": "Pet Care", "href": "/services" },
+        { "label": "Pet Hostel", "href": "/services#boarding" },
+        { "label": "Pet Training", "href": "/services#training" },
+        { "label": "Pet Food", "href": "/shop" },
+        { "label": "Pet Beds & Furniture", "href": "/shop#furniture" }
+      ]
+    },
+    "support": {
+      "title": "Support",
+      "links": [
+        { "label": "My Account", "href": "/account" },
+        { "label": "Help Center", "href": "/help" },
+        { "label": "FAQ", "href": "/faq" },
+        { "label": "Contact Us", "href": "/contact" },
+        { "label": "Forums", "href": "/forums" }
+      ]
+    },
+    "newsletter": {
+      "title": "Newsletter",
+      "description": "Subscribe to our newsletter for new products, trends & offers.",
+      "namePlaceholder": "Name",
+      "emailPlaceholder": "Email"
+    },
+    "social": [
+      { "label": "Facebook", "href": "https://facebook.com" },
+      { "label": "Instagram", "href": "https://instagram.com" },
+      { "label": "LinkedIn", "href": "https://linkedin.com" },
+      { "label": "Twitter", "href": "https://twitter.com" }
+    ],
+    "copyright": "Copyright© 2026. All Rights Reserved.Powered by Lewtow. "
+  },
+  "contactPage": {
+    "cards": [
+      {
+        "icon": "phone",
+        "title": "Call Us Anytime",
+        "subtext": "Mon - Sun from 9am to 7pm",
+        "actionText": "+1-800-356-8933",
+        "href": "tel:+18003568933",
+        "color": "bg-[#eaf1ee] text-forest"
+      },
+      {
+        "icon": "mail",
+        "title": "Email Support",
+        "subtext": "We respond within 2-4 hours",
+        "actionText": "hello@pawandco.com",
+        "href": "mailto:hello@pawandco.com",
+        "color": "bg-[#f5ece4] text-[#b86d3b]"
+      },
+      {
+        "icon": "mapPin",
+        "title": "Visit Our Clinic",
+        "subtext": "742 Evergreen Terrace, Suite 10",
+        "actionText": "Get Directions",
+        "href": "https://maps.google.com",
+        "color": "bg-[#eaf0f6] text-[#2c5f8a]"
+      },
+      {
+        "icon": "clock",
+        "title": "Working Hours",
+        "subtext": "Emergency 24/7 on call",
+        "actionText": "Mon - Sun: 9:00 AM - 7:00 PM",
+        "href": "#",
+        "color": "bg-[#f4efe8] text-forest"
+      }
+    ],
+    "form": {
+      "badge": "We'd Love To Hear From You",
+      "title": "Send Us a Message",
+      "description": "Have questions about treatments, grooming, or our care plans? Fill out the form below and we’ll get back to you promptly."
+    },
+    "quickAppointment": {
+      "badge": "Fast & Guaranteed Slots",
+      "title": "Need an Immediate Appointment?",
+      "description": "Skip the wait! Book an appointment directly with our veterinary and grooming experts online in less than 2 minutes.",
+      "buttonLabel": "Book Appointment Online",
+      "buttonHref": "/book-appointment"
+    },
+    "clinicLocation": {
+      "name": "Paw & Co. Main Clinic",
+      "address": "742 Evergreen Terrace",
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.9537353153166!3d-37.81627977975171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sus!4v1614299942468!5m2!1sen!2sus"
+    }
+  },
+  "galleryPage": {
+    "images": [
+      "https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1574158622682-e40e69881006?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1535294435445-d7249524ef2e?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1537151625747-768eb6cf92b2?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1548767797-d8c844163c4c?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1561037404-61cd46aa615b?auto=format&fit=crop&w=900&q=80"
+    ]
+  },
+  "appointmentPage": {
+    "badge": "Hassle-Free Booking",
+    "title": "Book Your Pet's Appointment",
+    "subtitle": "Choose a service, select your preferred date & time, and tell us about your pet. We’ll confirm your slot instantly.",
+    "services": [
+      {
+        "id": "vet-care",
+        "name": "Veterinary Consultation",
+        "duration": "30 mins",
+        "price": "$45",
+        "icon": "stethoscope"
+      },
+      {
+        "id": "full-grooming",
+        "name": "Full Grooming & Spa",
+        "duration": "60-90 mins",
+        "price": "$65",
+        "icon": "scissors"
+      },
+      {
+        "id": "vaccination",
+        "name": "Vaccination & Health Check",
+        "duration": "20 mins",
+        "price": "$35",
+        "icon": "syringe"
+      },
+      {
+        "id": "pet-boarding",
+        "name": "Boarding Check-in",
+        "duration": "Flexible",
+        "price": "From $50/day",
+        "icon": "home"
+      },
+      {
+        "id": "dental-care",
+        "name": "Dental Cleaning & Exam",
+        "duration": "45 mins",
+        "price": "$55",
+        "icon": "sparkles"
+      },
+      {
+        "id": "behavior-training",
+        "name": "Behavior Coaching",
+        "duration": "60 mins",
+        "price": "$70",
+        "icon": "award"
+      }
+    ],
+    "timeSlots": [
+      "09:30 AM",
+      "10:30 AM",
+      "11:30 AM",
+      "01:00 PM",
+      "02:30 PM",
+      "04:00 PM",
+      "05:30 PM",
+      "06:30 PM"
+    ]
+  }
+}
