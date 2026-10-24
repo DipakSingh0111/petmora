@@ -105,8 +105,24 @@ export function CompassionateCareBanner() {
   return (
     <section className="relative w-full overflow-hidden bg-cream border-y border-about-line">
       <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[460px] lg:min-h-[520px]">
-        {/* Left Column: Warm Cream Content Area */}
-        <div className="flex flex-col items-center justify-center px-6 py-14 sm:px-12 sm:py-20 lg:px-16 text-center">
+        {/* Left Column: High Quality Veterinarian Clinic Photo */}
+        <div className="relative min-h-[320px] sm:min-h-[420px] lg:min-h-full w-full overflow-hidden order-2 lg:order-1">
+          <Image
+            src="/images/clinic-care.jpg"
+            alt="Veterinarian gently examining a calm ginger cat in a bright, modern clinic room"
+            fill
+            sizes="(max-width: 1024px) 100vw, 50vw"
+            className="object-cover object-center transition-transform duration-700 hover:scale-105"
+          />
+          {/* Subtle inner shadow / border blend */}
+          <div
+            className="absolute inset-0 ring-1 ring-inset ring-black/5 pointer-events-none lg:border-r lg:border-about-line"
+            aria-hidden
+          />
+        </div>
+
+        {/* Right Column: Warm Cream Content Area */}
+        <div className="flex flex-col items-center justify-center px-6 py-14 sm:px-12 sm:py-20 lg:px-16 text-center order-1 lg:order-2">
           <motion.div
             className="flex flex-col items-center max-w-md"
             variants={staggerRelaxed}
@@ -143,22 +159,6 @@ export function CompassionateCareBanner() {
               </Link>
             </motion.div>
           </motion.div>
-        </div>
-
-        {/* Right Column: High Quality Veterinarian Clinic Photo */}
-        <div className="relative min-h-[320px] sm:min-h-[420px] lg:min-h-full w-full overflow-hidden">
-          <Image
-            src="/images/clinic-care.jpg"
-            alt="Veterinarian gently examining a calm ginger cat in a bright, modern clinic room"
-            fill
-            sizes="(max-width: 1024px) 100vw, 50vw"
-            className="object-cover object-center transition-transform duration-700 hover:scale-105"
-          />
-          {/* Subtle inner shadow / border blend */}
-          <div
-            className="absolute inset-0 ring-1 ring-inset ring-black/5 pointer-events-none lg:border-l lg:border-about-line"
-            aria-hidden
-          />
         </div>
       </div>
     </section>
